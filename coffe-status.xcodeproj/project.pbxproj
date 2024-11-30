@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3646C86E2CFBA57E00098688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3646C8542CFBA57D00098688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3646C85B2CFBA57D00098688;
+			remoteInfo = "coffe-status";
+		};
+		3646C8782CFBA57E00098688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3646C8542CFBA57D00098688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3646C85B2CFBA57D00098688;
+			remoteInfo = "coffe-status";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3646C85C2CFBA57D00098688 /* coffe-status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coffe-status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3646C86D2CFBA57E00098688 /* coffe-statusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coffe-statusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3646C8772CFBA57E00098688 /* coffe-statusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coffe-statusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3646C85E2CFBA57D00098688 /* coffe-status */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "coffe-status";
+			sourceTree = "<group>";
+		};
+		3646C8702CFBA57E00098688 /* coffe-statusTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "coffe-statusTests";
+			sourceTree = "<group>";
+		};
+		3646C87A2CFBA57E00098688 /* coffe-statusUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "coffe-statusUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3646C8592CFBA57D00098688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3646C86A2CFBA57E00098688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3646C8742CFBA57E00098688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3646C8532CFBA57D00098688 = {
+			isa = PBXGroup;
+			children = (
+				3646C85E2CFBA57D00098688 /* coffe-status */,
+				3646C8702CFBA57E00098688 /* coffe-statusTests */,
+				3646C87A2CFBA57E00098688 /* coffe-statusUITests */,
+				3646C85D2CFBA57D00098688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3646C85D2CFBA57D00098688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3646C85C2CFBA57D00098688 /* coffe-status.app */,
+				3646C86D2CFBA57E00098688 /* coffe-statusTests.xctest */,
+				3646C8772CFBA57E00098688 /* coffe-statusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3646C85B2CFBA57D00098688 /* coffe-status */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3646C8812CFBA57E00098688 /* Build configuration list for PBXNativeTarget "coffe-status" */;
+			buildPhases = (
+				3646C8582CFBA57D00098688 /* Sources */,
+				3646C8592CFBA57D00098688 /* Frameworks */,
+				3646C85A2CFBA57D00098688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3646C85E2CFBA57D00098688 /* coffe-status */,
+			);
+			name = "coffe-status";
+			packageProductDependencies = (
+			);
+			productName = "coffe-status";
+			productReference = 3646C85C2CFBA57D00098688 /* coffe-status.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3646C86C2CFBA57E00098688 /* coffe-statusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3646C8842CFBA57E00098688 /* Build configuration list for PBXNativeTarget "coffe-statusTests" */;
+			buildPhases = (
+				3646C8692CFBA57E00098688 /* Sources */,
+				3646C86A2CFBA57E00098688 /* Frameworks */,
+				3646C86B2CFBA57E00098688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3646C86F2CFBA57E00098688 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3646C8702CFBA57E00098688 /* coffe-statusTests */,
+			);
+			name = "coffe-statusTests";
+			packageProductDependencies = (
+			);
+			productName = "coffe-statusTests";
+			productReference = 3646C86D2CFBA57E00098688 /* coffe-statusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3646C8762CFBA57E00098688 /* coffe-statusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3646C8872CFBA57E00098688 /* Build configuration list for PBXNativeTarget "coffe-statusUITests" */;
+			buildPhases = (
+				3646C8732CFBA57E00098688 /* Sources */,
+				3646C8742CFBA57E00098688 /* Frameworks */,
+				3646C8752CFBA57E00098688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3646C8792CFBA57E00098688 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3646C87A2CFBA57E00098688 /* coffe-statusUITests */,
+			);
+			name = "coffe-statusUITests";
+			packageProductDependencies = (
+			);
+			productName = "coffe-statusUITests";
+			productReference = 3646C8772CFBA57E00098688 /* coffe-statusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3646C8542CFBA57D00098688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					3646C85B2CFBA57D00098688 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					3646C86C2CFBA57E00098688 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3646C85B2CFBA57D00098688;
+					};
+					3646C8762CFBA57E00098688 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3646C85B2CFBA57D00098688;
+					};
+				};
+			};
+			buildConfigurationList = 3646C8572CFBA57D00098688 /* Build configuration list for PBXProject "coffe-status" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3646C8532CFBA57D00098688;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3646C85D2CFBA57D00098688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3646C85B2CFBA57D00098688 /* coffe-status */,
+				3646C86C2CFBA57E00098688 /* coffe-statusTests */,
+				3646C8762CFBA57E00098688 /* coffe-statusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3646C85A2CFBA57D00098688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3646C86B2CFBA57E00098688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3646C8752CFBA57E00098688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3646C8582CFBA57D00098688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3646C8692CFBA57E00098688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3646C8732CFBA57E00098688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3646C86F2CFBA57E00098688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3646C85B2CFBA57D00098688 /* coffe-status */;
+			targetProxy = 3646C86E2CFBA57E00098688 /* PBXContainerItemProxy */;
+		};
+		3646C8792CFBA57E00098688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3646C85B2CFBA57D00098688 /* coffe-status */;
+			targetProxy = 3646C8782CFBA57E00098688 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3646C87F2CFBA57E00098688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3646C8802CFBA57E00098688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3646C8822CFBA57E00098688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "coffe-status/coffe_status.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"coffe-status/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dojan.coffe-status";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3646C8832CFBA57E00098688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "coffe-status/coffe_status.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"coffe-status/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dojan.coffe-status";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3646C8852CFBA57E00098688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dojan.coffe-statusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coffe-status.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coffe-status";
+			};
+			name = Debug;
+		};
+		3646C8862CFBA57E00098688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dojan.coffe-statusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coffe-status.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/coffe-status";
+			};
+			name = Release;
+		};
+		3646C8882CFBA57E00098688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dojan.coffe-statusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "coffe-status";
+			};
+			name = Debug;
+		};
+		3646C8892CFBA57E00098688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dojan.coffe-statusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "coffe-status";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3646C8572CFBA57D00098688 /* Build configuration list for PBXProject "coffe-status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3646C87F2CFBA57E00098688 /* Debug */,
+				3646C8802CFBA57E00098688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3646C8812CFBA57E00098688 /* Build configuration list for PBXNativeTarget "coffe-status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3646C8822CFBA57E00098688 /* Debug */,
+				3646C8832CFBA57E00098688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3646C8842CFBA57E00098688 /* Build configuration list for PBXNativeTarget "coffe-statusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3646C8852CFBA57E00098688 /* Debug */,
+				3646C8862CFBA57E00098688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3646C8872CFBA57E00098688 /* Build configuration list for PBXNativeTarget "coffe-statusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3646C8882CFBA57E00098688 /* Debug */,
+				3646C8892CFBA57E00098688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3646C8542CFBA57D00098688 /* Project object */;
+}
