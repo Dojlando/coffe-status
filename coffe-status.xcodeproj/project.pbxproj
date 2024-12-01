@@ -29,9 +29,22 @@
 		3646C8772CFBA57E00098688 /* coffe-statusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coffe-statusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3646C8AE2CFBADAD00098688 /* Exceptions for "coffe-status" folder in "coffe-status" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3646C85B2CFBA57D00098688 /* coffe-status */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3646C85E2CFBA57D00098688 /* coffe-status */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3646C8AE2CFBADAD00098688 /* Exceptions for "coffe-status" folder in "coffe-status" target */,
+			);
 			path = "coffe-status";
 			sourceTree = "<group>";
 		};
@@ -399,6 +412,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"coffe-status/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "coffe-status/Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -424,6 +439,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"coffe-status/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "coffe-status/Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
