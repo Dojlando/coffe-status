@@ -44,7 +44,6 @@ class CoffeStateStore: ObservableObject {
             let json = try JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
             
             return CoffeState(cupsLeft: json["cupsLeft"]! as! Int, state: json["state"]! as! String, updated: Date())
-            // return  CoffeState (cupsLeft: Int(json["cupsLeft"]!))
         }
         catch {
             print(error)
@@ -66,8 +65,8 @@ struct CoffeStatusApp: App {
                 NSApplication.shared.terminate(nil)
             }.keyboardShortcut("q")
         } label: {
-            Image(systemName: "cup.and.saucer.fill")
-            Text("\(store.coffeState.cupsLeft)")
+            Image(systemName: store.coffeState.state == "BREWING" ? "cup.and.heat.waves.fill" : "cup.and.saucer.fill")
+            Text(store.coffeState.state == "OFFLINE" ? "!" : "\(store.coffeState.cupsLeft)")
         }
     }
 }
