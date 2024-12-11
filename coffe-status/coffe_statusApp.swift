@@ -16,15 +16,12 @@ struct CoffeState {
 class CoffeStateStore: ObservableObject {
     @Published var coffeState: CoffeState = .init(cupsLeft: 0, state: "", updated: Date())
     var timer: Timer?
+    let UPDATE_INTERVAL: TimeInterval = 15.0
     
     init() {
-        Task {
-            await self.setCoffeState(state: await self.getCurrentCoffeState())
-        }
-        timer = Timer.scheduledTimer(withTimeInterval: 30.0, repeats: true) { _ in
-            Task {
-                await self.setCoffeState(state: await self.getCurrentCoffeState())
-            }
+        refreshCoffeeState()
+        timer = Timer.scheduledTimer(withTimeInterval: self.UPDATE_INTERVAL, repeats: true) { _ in
+            self.refreshCoffeeState()
         }
     }
     deinit {
@@ -50,7 +47,13 @@ class CoffeStateStore: ObservableObject {
             return CoffeState(cupsLeft: -1, state: "Error", updated: Date())
         }
     }
-
+    
+    func refreshCoffeeState() {
+        Task {
+            await self.setCoffeState(state: await self.getCurrentCoffeState())
+        }
+    }
+    
 }
 
 @main
@@ -60,7 +63,10 @@ struct CoffeStatusApp: App {
     var body: some Scene {
         MenuBarExtra {
             Text("Coffe Status: \(store.coffeState.state)");
-            Text("Updated: \(String(describing: store.coffeState.updated))");
+            Text("Updated: \(String(describing: dateInLocalTimeZone(date: store.coffeState.updated)))");
+            Button("Refresh") {
+                store.refreshCoffeeState()
+            }.keyboardShortcut("r")
             Button("Quit") {
                 NSApplication.shared.terminate(nil)
             }.keyboardShortcut("q")
@@ -68,5 +74,12 @@ struct CoffeStatusApp: App {
             Image(systemName: store.coffeState.state == "BREWING" ? "cup.and.heat.waves.fill" : "cup.and.saucer.fill")
             Text(store.coffeState.state == "OFFLINE" ? "!" : "\(store.coffeState.cupsLeft)")
         }
+    }
+    
+    func dateInLocalTimeZone(date: Date) -> String {
+        let formatter = DateFormatter()
+        formatter.timeZone = TimeZone.current
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        return formatter.string(from: date)
     }
 }
